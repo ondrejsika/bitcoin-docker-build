@@ -1,9 +1,9 @@
-# Zcash Docker Build
+# Bitcoin Docker Build
 
 - author: Ondrej Sika <ondrej@ondrejsika.com>
 - license: MIT <https://ondrejsika.com/license/mit.txt>
 
-## Build zcash
+## Build Bitcoind
 
 Build master
 
@@ -14,12 +14,12 @@ Build master
 Build tag or branch
 
 ```
-./build.sh v1.0.0
+./build.sh v0.13.2
 ```
 
 and specify the repository
 
 ```
-./build.sh master https://github.com/ondrejsika/zcash.git
+./build.sh master https://github.com/ondrejsika/bitcoin.git
 ```
 
